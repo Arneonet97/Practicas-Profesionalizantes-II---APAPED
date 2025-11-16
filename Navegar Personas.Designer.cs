@@ -1,0 +1,164 @@
+﻿namespace Practicas_Profesionalizantes_II___APAPED
+{
+    partial class Navegar_Personas
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.BotonNuevoRegistro = new System.Windows.Forms.Button();
+            this.BotonImprimir = new System.Windows.Forms.Button();
+            this.BotonGuardarRegistro = new System.Windows.Forms.Button();
+            this.BotonEliminarRegistro = new System.Windows.Forms.Button();
+            this.BotonBuscarRegistro = new System.Windows.Forms.Button();
+            this.BotonPersonaSiguiente = new System.Windows.Forms.Button();
+            this.BotonPersonaAnterior = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Myanmar Text", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(24, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(236, 71);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "PERSONAS";
+            // 
+            // BotonNuevoRegistro
+            // 
+            this.BotonNuevoRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonNuevoRegistro.Location = new System.Drawing.Point(25, 390);
+            this.BotonNuevoRegistro.Name = "BotonNuevoRegistro";
+            this.BotonNuevoRegistro.Size = new System.Drawing.Size(137, 35);
+            this.BotonNuevoRegistro.TabIndex = 1;
+            this.BotonNuevoRegistro.Text = "Nuevo Registro";
+            this.BotonNuevoRegistro.UseVisualStyleBackColor = true;
+            // 
+            // BotonImprimir
+            // 
+            this.BotonImprimir.Location = new System.Drawing.Point(672, 390);
+            this.BotonImprimir.Name = "BotonImprimir";
+            this.BotonImprimir.Size = new System.Drawing.Size(33, 35);
+            this.BotonImprimir.TabIndex = 5;
+            this.BotonImprimir.UseVisualStyleBackColor = true;
+            // 
+            // BotonGuardarRegistro
+            // 
+            this.BotonGuardarRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonGuardarRegistro.Location = new System.Drawing.Point(187, 390);
+            this.BotonGuardarRegistro.Name = "BotonGuardarRegistro";
+            this.BotonGuardarRegistro.Size = new System.Drawing.Size(142, 35);
+            this.BotonGuardarRegistro.TabIndex = 2;
+            this.BotonGuardarRegistro.Text = "Guardar Registro";
+            this.BotonGuardarRegistro.UseVisualStyleBackColor = true;
+            // 
+            // BotonEliminarRegistro
+            // 
+            this.BotonEliminarRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonEliminarRegistro.Location = new System.Drawing.Point(352, 390);
+            this.BotonEliminarRegistro.Name = "BotonEliminarRegistro";
+            this.BotonEliminarRegistro.Size = new System.Drawing.Size(142, 35);
+            this.BotonEliminarRegistro.TabIndex = 3;
+            this.BotonEliminarRegistro.Text = "Eliminar Registro";
+            this.BotonEliminarRegistro.UseVisualStyleBackColor = true;
+            // 
+            // BotonBuscarRegistro
+            // 
+            this.BotonBuscarRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonBuscarRegistro.Location = new System.Drawing.Point(520, 390);
+            this.BotonBuscarRegistro.Name = "BotonBuscarRegistro";
+            this.BotonBuscarRegistro.Size = new System.Drawing.Size(137, 35);
+            this.BotonBuscarRegistro.TabIndex = 4;
+            this.BotonBuscarRegistro.Text = "Buscar Registro";
+            this.BotonBuscarRegistro.UseVisualStyleBackColor = true;
+            // 
+            // BotonPersonaSiguiente
+            // 
+            this.BotonPersonaSiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonPersonaSiguiente.Location = new System.Drawing.Point(743, 31);
+            this.BotonPersonaSiguiente.Name = "BotonPersonaSiguiente";
+            this.BotonPersonaSiguiente.Size = new System.Drawing.Size(33, 35);
+            this.BotonPersonaSiguiente.TabIndex = 8;
+            this.BotonPersonaSiguiente.Text = ">";
+            this.BotonPersonaSiguiente.UseVisualStyleBackColor = true;
+            // 
+            // BotonPersonaAnterior
+            // 
+            this.BotonPersonaAnterior.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonPersonaAnterior.Location = new System.Drawing.Point(696, 31);
+            this.BotonPersonaAnterior.Name = "BotonPersonaAnterior";
+            this.BotonPersonaAnterior.Size = new System.Drawing.Size(33, 35);
+            this.BotonPersonaAnterior.TabIndex = 7;
+            this.BotonPersonaAnterior.Text = "<";
+            this.BotonPersonaAnterior.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Practicas_Profesionalizantes_II___APAPED.Properties.Resources.APAPED_LOGO;
+            this.pictureBox1.Location = new System.Drawing.Point(302, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(364, 426);
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Navegar_Personas
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BotonPersonaSiguiente);
+            this.Controls.Add(this.BotonPersonaAnterior);
+            this.Controls.Add(this.BotonEliminarRegistro);
+            this.Controls.Add(this.BotonBuscarRegistro);
+            this.Controls.Add(this.BotonGuardarRegistro);
+            this.Controls.Add(this.BotonImprimir);
+            this.Controls.Add(this.BotonNuevoRegistro);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Name = "Navegar_Personas";
+            this.Text = "Navegar_Personas";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button BotonNuevoRegistro;
+        private System.Windows.Forms.Button BotonImprimir;
+        private System.Windows.Forms.Button BotonGuardarRegistro;
+        private System.Windows.Forms.Button BotonEliminarRegistro;
+        private System.Windows.Forms.Button BotonBuscarRegistro;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BotonPersonaSiguiente;
+        private System.Windows.Forms.Button BotonPersonaAnterior;
+    }
+}
